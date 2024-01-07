@@ -3,18 +3,19 @@
 
 <head>
     <!-- tailwind link -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Greendan</title>
 </head>
 <body>
     <!-- Responsive Navbar -->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
-        <h1 class="text-5xl text-bolder lg:text-2xl ">Greendon</h1>
+        <h1 class="text-5xl text-bolder md:text-2xl md:text-xl ">Greendon</h1>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-10 h-10 lg:hidden ">
+        class="w-10 h-10 md:hidden ">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
-        <ul class="flex gap-3 hidden lg:flex ">
+        <ul class="flex gap-3  hidden md:flex ">
             <li>
                 <a class="text-green-600 text-black  " href="index.html">Home</a>
             </li>
@@ -27,89 +28,89 @@
         </ul>
     </nav>
     <!-- header -->
-    <div class="p-4 text-center text-2xl">
+    <div class="p-4 text-center text-2xl md:text-xl">
         <h1 class="text-3xl font-bold mt-5">Products</h1>
     </div>
-    <section class="text-center text-2xl">
+    <section class="text-center text-2xl md:text-xl">
     <form >
         <input type="search" id="default-search"
-            class="block inline  p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " style="width: 80%;"
+            class="block inline  p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-md bg-gray-50 focus:ring-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " style="width: 80%;"
             placeholder="Search for a products" required>
     </form>
 </section>
     <!-- products -->
-    <section class="p-4 text-center text-2xl ">
-        <div class="grid grid-cols-2 lg:grid-cols-4 mt-10 gap-5">
+    <section class="p-4 text-center text-2xl md:text-xl  ">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5">
             <div>
-                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl   transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl   transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Zomifolia Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Rose Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Dracaena Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Lavendor Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
         </div>
     </section>
-    <section class="p-4 text-center text-2xl">
-        <div class="grid grid-cols-2 lg:grid-cols-4 mt-5 gap-5">
+    <section class="p-4 text-center text-2xl md:text-xl">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
 
             <div>
-                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Lavendor Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Dracaena Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
 
             <div>
-                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Rose Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Zomifolia Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
         </div>
 
     </section>
-    <section class="p-4 text-center text-2xl">
+    <section class="p-4 text-center text-2xl md:text-xl">
 
-        <div class="grid grid-cols-2 lg:grid-cols-4 mt-5 gap-5">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
             <div>
-                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Lavendor Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
 
             <div>
-                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Rose Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Dracaena Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Zomifolia Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
@@ -117,28 +118,28 @@
         </div>
 
     </section>
-    <section class="p-4 text-center text-2xl">
+    <section class="p-4 text-center text-2xl md:text-xl">
 
-        <div class="grid grid-cols-2 lg:grid-cols-4 mt-5 gap-5">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
             <div>
-                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant3.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Dracaena Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant1.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Zomifolia Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
 
 
             <div>
-                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant4.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Lavendor Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
             <div>
-                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 lg:w-auto hover:-translate-y-2 mb-3" alt="">
+                <img src="./imgs/plant2.jpg" class="inline hover:shadow-xl  transform w-3/4 md:w-auto hover:-translate-y-2 mb-3" alt="">
                 <h2>Rose Plant</h2>
                 <p class="font-bold">20$</p>
             </div>
