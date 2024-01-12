@@ -11,7 +11,7 @@
     <!-- Responsive Navbar -->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-3xl text-bolder lg:text-2xl ">Greendon</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
         class="w-8 h-8 md:hidden ">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -37,6 +37,17 @@
             class="block inline  p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-md bg-gray-50 focus:ring-blue-500  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " style="width: 80%;"
             placeholder="Search for a products" required>
     </form>
+</section>
+  <!-- size Navbar -->
+  <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%">
+    <div class="text-right p-5">
+        <p id="closenav" class="inline cursor-pointer">X</p>
+    </div>
+    <ul class="flex flex-col gap-10 items-center text-green-600">
+    <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+    <li><a href="./products.html" class="hover:text-black hover:underline">Products</a></li>
+    <li><a href="./contact.html" class="hover:text-black hover:underline">Contact</a></li>
+</ul>
 </section>
     <!-- products -->
     <section class="p-4 text-center text-2xl md:text-xl  ">
@@ -152,6 +163,7 @@
         <p>The Standard chunk of lorem ipsum since the 1500s is reprodused below for those intrest</p>
         <p>@ 2021 Greenday.com</p>
     </section>
+    <script src="contact.js"></script>
 </body>
 
 </html>

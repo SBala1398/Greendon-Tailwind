@@ -10,7 +10,7 @@
     <!-- Responsive Navbar -->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-3xl text-bolder lg:text-2xl ">Greendon</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-10 h-10 md:hidden ">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -26,6 +26,17 @@
             </li>
         </ul>
     </nav>
+    <!-- size Navbar -->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center text-green-600">
+        <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+        <li><a href="./products.html" class="hover:text-black hover:underline">Products</a></li>
+        <li><a href="./contact.html" class="hover:text-black hover:underline">Contact</a></li>
+    </ul>
+    </section>
     <!-- hearder section -->
     <section class="bg-green-100 lg:p-10 p-7 flex justify-center shadow-x1 gap-2  ">
         <div>
@@ -37,7 +48,6 @@
             </div>
             <p class="mt-5 text-2xl md:text-base">190+ Plans Species | 100+ Clients</p>
         </div>
-
         <div class="hidden lg:block">
             <img src="./imgs/header.jpg" alt="" class="w-80 hidden lg:block">
         </div>
@@ -46,7 +56,6 @@
     <section class="text-center">
         <h1 class="text-3xl font-bold mt-5">About Us</h1>
         <p class="text-2xl mt-2 md:text-xl">This site for those who admire the beauty and haemony of nature</p>
-
         <div class="lg:flex ">
             <div class="border border-black p-2 m-6 bg-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
@@ -86,7 +95,6 @@
     <!-- Best Seller -->
     <section class="p-4 text-center text-2xl md:text-xl ">
         <h1 class="text-3xl font-bold mt-5">Best Seller</h1>
-
         <div class="grid grid-cols-2 lg:grid-cols-4 mt-5 gap-5">
             <div>
                 <img src="./imgs/plant1.jpg"  class="inline w-3/4 lg:w-auto hover:shadow-xl  transform hover:-translate-y-2 mb-3" alt="">
@@ -109,7 +117,6 @@
                 <p class="font-bold">20$</p>
             </div>
         </div>
-
     </section>
     <!-- customer review -->
     <section class="p-4 ">
@@ -134,7 +141,6 @@
                 <p class="font-bold text-yellow-300">Parker</p>
             </div>
         </div>
-
     </section>
     <!--News Letter-->
     <section class="text-center text-2xl">
@@ -149,5 +155,7 @@
         <p>The Standard chunk of lorem ipsum since the 1500s is reprodused below for those intrest</p>
         <p>@ 2021 Greenday.com</p>
     </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
